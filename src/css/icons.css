@@ -1,0 +1,22 @@
+.icon {
+  display: inline-block;
+  width: 1.2em;
+  aspect-ratio: 1;
+  fill: currentcolor;
+  stroke: none;
+
+  &.icon-lg {
+    width: 1.4em;
+  }
+  &.top-adjust {
+    position: relative;
+    top: .3em;
+
+    &.icon-lg {
+      top: .1rem;
+    }
+  }
+  &.dark {
+    fill: var(--gray-blue-150);
+  }
+}

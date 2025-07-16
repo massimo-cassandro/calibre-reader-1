@@ -1,0 +1,10 @@
+.badge {
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  padding: 1px 8px;
+  color: var(--gray-100);
+  background-color: var(--gray-70);
+  border-radius: 2rem;
+
+}

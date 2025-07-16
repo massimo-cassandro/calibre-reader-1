@@ -1,0 +1,43 @@
+<header>
+  <div>
+    <form action="#" method="get" class="search-form">
+      <fieldset disabled class="search-form-fset">
+        <fieldset class="searchFields">
+          <div class="input-group">
+            <input type="search" class="search-input" placeholder="Cerca..." autofocus>
+            <button type="submit" class="btn search-btn">Cerca</button>
+            <button type="button" class="btn reset-btn">Reset</button>
+          </div>
+        </fieldset>
+        <fieldset class="search-options orderBy">
+          <legend>Ordina per</legend>
+          <div>
+            <input type="radio" name="orderBy" id="orderBy-recent" value="" checked>
+            <label class="btn orderBy-btn" for="orderBy-recent">Recenti</label>
+            <input type="radio" name="orderBy" id="orderBy-serie" value="serie">
+            <label class="btn orderBy-btn" for="orderBy-serie">Serie</label>
+            <input type="radio" name="orderBy" id="orderBy-author" value="author">
+            <label class="btn orderBy-btn" for="orderBy-author">Autore</label>
+            <input type="radio" name="orderBy" id="orderBy-title" value="title">
+            <label class="btn orderBy-btn" for="orderBy-title">Titolo</label>
+            <input type="radio" name="orderBy" id="orderBy-year" value="year">
+            <label class="btn orderBy-btn" for="orderBy-year" title="Anno prima edizione o pubblicazione">Anno</label>
+          </div>
+        </fieldset>
+        <fieldset class="search-options filter">
+          <legend>Liste</legend>
+          <div>
+            <input type="radio" name="filter" id="filter-authors" value="author">
+            <label class="btn filter-btn" for="filter-authors">Autori</label>
+            <input type="radio" name="filter" id="filter-tags" value="tag">
+            <label class="btn filter-btn" for="filter-tags">Tags</label>
+            <input type="radio" name="filter" id="filter-scaffale" value="scaffale">
+            <label class="btn filter-btn" for="filter-scaffale">Scaffali</label>
+          </div>
+        </fieldset>
+        <div class="search-info"></div>
+      </fieldset>
+    </form>
+  </div>
+</header>
+<main class="result-wrapper"></main>

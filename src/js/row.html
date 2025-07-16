@@ -1,0 +1,60 @@
+<article class="book">
+  <div class="book-inner">
+
+    <div class="book-cover">
+      {{cover_thumb}}
+    </div>
+
+    <div class="book-data">
+      <div class="author">
+        {{authors}}
+      </div>
+      <h2 class="title">{{title}}</h2>
+      {{serie}}
+      <div class="publisher">
+        {{publisher}}
+      </div>
+
+      <div class="info">
+        {{tags}}
+        {{date}}
+        <span class="formats-wrapper">
+          {{file_formats}}
+        </span>
+      </div>
+
+      <div class="info">
+        {{is_amz_icon}}
+        {{lettura_rating}}
+
+        <span>
+          {{icona_scaffale}}
+          <span class="scaffale">{{scaffale}}</span>
+        </span>
+
+      </div>
+    </div>
+
+    <div class="book-utils">
+      <a href="{{google_url}}" target="_blank" rel="noopener noreferrer">
+        {{icona_google}}
+      </a>
+
+      <a href="{{amz_url}}" target="_blank" rel="noopener noreferrer">
+        {{icona_amz}}
+      </a>
+    </div>
+  </div>
+
+  <div class="details-trigger">
+    <button type="button">
+      {{icona_dettagli}}
+    </button>
+  </div>
+  <section class="details">
+    <div>
+      {{comment}}
+      {{cover}}
+    </div>
+  </section>
+</article>

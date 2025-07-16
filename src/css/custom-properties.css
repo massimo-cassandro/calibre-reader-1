@@ -1,0 +1,20 @@
+:root {
+  --gray-10: #f7f7f7;
+  --gray-70: #e6e6e6;
+  --gray-100: #999;
+  --gray-150: #737171;
+  --blue-10: #d7dade;
+  --blue-100: #035bb4;
+  --blue-160: #09224f;
+  --gray-blue-50: #7c8d9e;
+  --gray-blue-100: #5e6a77;
+  --gray-blue-150: #313940;
+  --purple-100: #5c1562;
+
+  --border-radius-full: 10rem;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 350;
+  --font-weight-semibold: 500;
+  --font-weight-bold: 700;
+}

@@ -1,0 +1,52 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+
+		"explorerExclude.backup": null,
+		"favorites.resources": [
+			{
+				"filePath": "node_modules/the-new-css-reset",
+				"group": "Default"
+			},
+			{
+				"filePath": "node_modules/@massimo-cassandro",
+				"group": "Default"
+			},
+			{
+				"filePath": "node_modules/glightbox",
+				"group": "Default"
+			},
+			{
+				"filePath": "node_modules/@fontsource-variable",
+				"group": "Default"
+			}
+		],
+
+    // https://github.com/willofindie/vscode-cssvar/tree/main#--css-variables
+    "cssvar.files": [
+      "./node_modules/open-props/open-props.min.css",
+      "./src/css/*.css"
+    ],
+
+    // Do not ignore node_modules css files, which is ignored by default
+    "cssvar.ignore": [],
+
+    // add support for autocomplete in JS or JS like files
+    "cssvar.extensions": [
+      "css",
+      "postcss",
+      "jsx",
+      "tsx",
+      "scss"
+    ],
+
+    /* Let Extension know there exists a `.dark` theme  */
+    "cssvar.themes": ["dark"],
+    /* If the below config is true, css variables from `.dark` and `.dim` theme will be hidden from list */
+    "cssvar.excludeThemedVariables": true
+	}
+}

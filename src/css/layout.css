@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.3;
+}
+.container {
+  position: relative;
+  max-width: 600px;
+  padding: 0 1rem;
+  margin: 0 auto 1rem;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 1rem 0 .3rem;
+  background-color: #fff;
+
+  > div {
+    padding: .6rem;
+    border: 1px solid var(--gray-100);
+    border-radius: .4rem;
+  }
+}

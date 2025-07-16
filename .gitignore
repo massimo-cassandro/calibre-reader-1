@@ -1,0 +1,10 @@
+*~
+.DS_Store
+node_modules
+export-covers/covers/*.*
+!export-covers/covers/.gitkeep
+export-covers/covers-last-import.json
+
+.env
+/db
+src/php/init-dev.php
